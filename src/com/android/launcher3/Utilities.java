@@ -166,6 +166,9 @@ public final class Utilities {
     @IntDef({TRANSLATE_UP, TRANSLATE_DOWN, TRANSLATE_LEFT, TRANSLATE_RIGHT})
     public @interface AdjustmentDirection{}
 
+    public static final int KEY_RECENTS_OPACITY = 70;
+    public static final int KEY_APP_DRAWER_OPACITY = 80;
+
     /**
      * Returns true if theme is dark.
      */
